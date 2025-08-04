@@ -27,6 +27,19 @@ function App() {
 
   const [isLoading, setIsLoading] = useState(true);
 
+  // Force scroll to top immediately on component mount
+  useEffect(() => {
+    // Disable scroll restoration
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+    }
+    
+    // Force immediate scroll to top
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, []);
+
   useEffect(() => {
     localStorage.setItem('darkMode', JSON.stringify(darkMode));
     if (darkMode) {
@@ -37,12 +50,32 @@ function App() {
   }, [darkMode]);
 
   useEffect(() => {
-    // Simulate loading time
+    // Simulate loading time and ensure we start at top
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+      // Force scroll to top immediately
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+      // Also scroll to hero section by ID
+      setTimeout(() => {
+        const heroElement = document.getElementById('home');
+        if (heroElement) {
+          heroElement.scrollIntoView({ behavior: 'instant', block: 'start' });
+        }
+      }, 100);
+    }, 800); // Reduced loading time
 
     return () => clearTimeout(timer);
+  }, []);
+
+  // Ensure page always starts at top on route changes
+  useEffect(() => {
+    const handleRouteChange = () => {
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    };
+    
+    // Listen for browser navigation
+    window.addEventListener('popstate', handleRouteChange);
+    return () => window.removeEventListener('popstate', handleRouteChange);
   }, []);
 
   const toggleDarkMode = () => {

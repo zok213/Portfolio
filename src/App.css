@@ -17,9 +17,34 @@
   50% { border-color: orange; }
 }
 
-/* Smooth scroll behavior */
+/* Smooth scroll behavior - but instant on page load */
 html {
   scroll-behavior: smooth;
+}
+
+/* Force page to always start at top */
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* Disable scroll restoration to prevent auto-scroll */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Ensure sections don't auto-focus */
+section {
+  scroll-margin-top: 80px;
+}
+
+/* Override any auto-scroll behavior */
+* {
+  scroll-behavior: inherit;
 }
 
 /* Focus states for accessibility */
