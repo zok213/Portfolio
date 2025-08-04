@@ -1,0 +1,16 @@
+# Hugging Face Spaces configuration
+title: Mai's AI Portfolio Backend
+emoji: 🤖
+colorFrom: purple
+colorTo: pink
+sdk: docker
+app_port: 7860
+pinned: false
+
+# Tags for discoverability
+tags:
+  - ai-assistant
+  - portfolio
+  - gemini
+  - fastapi
+  - reasoning

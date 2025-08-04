@@ -1,0 +1,38 @@
+{
+  "personal": {
+    "name": "Mai Phuoc Minh Tai",
+    "title": "AI Engineer | MLOps Specialist | Full Stack Developer",
+    "location": "Da Nang, Vietnam",
+    "email": "maiphuocminhtai21032005@gmail.com",
+    "phone": "+84 921 093 950",
+    "bio": "Passionate AI Engineer specializing in MLOps and full-stack development. I build intelligent systems that bridge the gap between machine learning research and production deployment, creating scalable AI solutions that make a real impact.",
+    "resume": "/path/to/your/resume.pdf"
+  },
+  "social": {
+    "github": "https://github.com/zok213",
+    "linkedin": "https://linkedin.com/in/mai-tài-8a672a2a0/",
+    "twitter": "https://twitter.com/yourusername",
+    "website": "https://yourwebsite.com"
+  },
+  "ai": {
+    "enabled": true,
+    "provider": "openai",
+    "model": "gpt-3.5-turbo",
+    "systemMessage": "You are an AI assistant representing Mai Phuoc Minh Tai's portfolio. You're knowledgeable about AI/ML, MLOps, full-stack development, and his projects. Be helpful, professional, and engaging when answering questions about his work and expertise in artificial intelligence and software development.",
+    "fallbackMessage": "I'm sorry, I'm currently unavailable. Please feel free to contact Mai directly using the contact form below!"
+  },
+  "theme": {
+    "primaryColor": "#3b82f6",
+    "secondaryColor": "#1e40af",
+    "accentColor": "#f59e0b",
+    "darkMode": true
+  },
+  "features": {
+    "aiChat": true,
+    "contactForm": true,
+    "projectGallery": true,
+    "skillsSection": true,
+    "certificationsSection": true,
+    "blogSection": false
+  }
+}

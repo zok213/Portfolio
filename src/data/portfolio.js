@@ -1,0 +1,257 @@
+export const projects = [
+  {
+    id: 1,
+    title: "JobFit - AI-Powered Job Matching Platform",
+    description: "An intelligent job matching system using machine learning algorithms to connect candidates with perfect job opportunities based on skills, experience, and preferences.",
+    image: "/prj/JobFIt.ai.jpg",
+    technologies: ["Python", "Machine Learning", "NLP", "FastAPI", "React", "PostgreSQL"],
+    liveUrl: "https://jobfit-demo.example.com",
+    githubUrl: "https://github.com/zok213/JobFit",
+    featured: true,
+    category: "AI/ML"
+  },
+  {
+    id: 2,
+    title: "DroneAgent - Autonomous Drone Control System",
+    description: "An AI-powered autonomous drone control system with computer vision capabilities for navigation, object detection, and mission planning using reinforcement learning.",
+    image: "/prj/AgentDrone.jpg",
+    technologies: ["Python", "Computer Vision", "Reinforcement Learning", "OpenCV", "TensorFlow", "ROS"],
+    liveUrl: "https://github.com/zok213/DroneAgent",
+    githubUrl: "https://github.com/zok213/DroneAgent",
+    featured: true,
+    category: "AI/ML"
+  },
+  {
+    id: 3,
+    title: "Quintgram - AI Fairy Tale Drawing App",
+    description: "An AI-powered creative application that generates beautiful fairy tale illustrations for children. Uses advanced computer vision and generative AI to create magical, story-driven artwork that brings children's imagination to life.",
+    image: "/prj/Quintgarm.gif",
+    technologies: ["Python", "Generative AI", "Computer Vision", "React", "FastAPI", "Image Generation"],
+    liveUrl: "https://github.com/zok213/Quintgram",
+    githubUrl: "https://github.com/zok213/Quintgram",
+    featured: true,
+    category: "AI - Creative"
+  },
+  {
+    id: 4,
+    title: "Pixity - AI Local Assistant & Production Pipeline",
+    description: "Enterprise-grade AI production pipeline and MLOps platform for deploying, monitoring, and scaling machine learning models in production environments.",
+    image: "prj/Pixity.png",
+    technologies: ["Python", "RAG",  "FastAPI", "Chat Bot","MLOps", "Docker", "Kubernetes", "TensorFlow", "Monitoring"],
+    liveUrl: "https://pixagent-demo.example.com",
+    githubUrl: "https://github.com/ManTT-Data/PixAgent",
+    featured: true,
+    category: "AI - Full Stack"
+  },
+  {
+    id: 5,
+    title: "Hybrid Emotion Classifier",
+    description: "A hybrid deep learning model for emotion classification using facial images and audio signals. Integrates CNN and RNN architectures for robust multimodal emotion recognition.",
+    image: "/prj/HybridEmotionClassifier.jpg",
+    technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "Audio Processing"],
+    liveUrl: "https://github.com/zok213/Hybrid-Emotion-Classifier",
+    githubUrl: "https://github.com/zok213/Hybrid-Emotion-Classifier",
+    featured: false,
+    category: "AI/ML"
+  },
+  {
+    id: 6,
+    title: "DeepFaceEnsemble-ResNetMobile",
+    description: "An ensemble deep learning system combining ResNet and MobileNet architectures for highly accurate face recognition and verification tasks.",
+    image: "/prj/DeepFaceEnsemble.jpg",
+    technologies: ["Python", "TensorFlow", "Keras", "ResNet", "MobileNet", "Face Recognition"],
+    liveUrl: "https://github.com/zok213/DeepFaceEnsemble-ResNetMobile",
+    githubUrl: "https://github.com/zok213/DeepFaceEnsemble-ResNetMobile",
+    featured: false,
+    category: "AI/ML"
+  },
+  {
+    id: 7,
+    title: "SILIA: Smart Image Labeling & Interactive Annotation",
+    description: "A web-based tool for efficient image labeling and annotation, designed for computer vision datasets. Features interactive UI, bulk operations, and export to popular ML formats.",
+    image: "/prj/SILIA.jpg",
+    technologies: ["React", "Python", "FastAPI", "Computer Vision", "Annotation"],
+    liveUrl: "https://github.com/zok213/SILIA",
+    githubUrl: "https://github.com/zok213/SILIA",
+    featured: false,
+    category: "AI/ML"
+  }
+];
+
+// src/data/skills.js
+
+export const skills = [
+  {
+    category: "AI & Machine Learning",
+    description: "Building intelligent systems and working with ML models.",
+    priority: 1,
+    items: [
+      { name: "Python", proficiency: "high", icon: "/icons/Python.png" },
+      { name: "TensorFlow", proficiency: "high", icon: "/icons/TensorFlow.png" },
+      { name: "Scikit-learn", proficiency: "high", icon: "/icons/Scikit-learn.png" },
+      { name: "Pandas/NumPy/Matplotlib/Seaborn", proficiency: "high", icon: "/icons/Pandas.png" },
+      { name: "PyTorch", proficiency: "medium", icon: "/icons/PyTorch.png" },
+      { name: "OpenCV", proficiency: "medium", icon: "/icons/OpenCV.png" },
+      { name: "Hugging Face", proficiency: "medium", icon: "/icons/HuggingFace.png" },
+      { name: "Keras", proficiency: "basic", icon: "/icons/Keras.png" },
+    ]
+  },
+  {
+    category: "AI Specializations",
+    description: "Focused areas of AI development and research.",
+    priority: 2,
+    items: [
+      { name: "Computer Vision", proficiency: "high", icon: "/icons/ComputerVision.png", description: "Object detection, face recognition, image classification" },
+      { name: "Deep Learning", proficiency: "high", icon: "/icons/DeepLearning.png", description: "CNN, RNN, ResNet, MobileNet architectures" },
+      { name: "NLP & Text Analysis", proficiency: "medium", icon: "/icons/NLP.png", description: "Sentiment analysis, text processing, chatbots" },
+      { name: "Ensemble Methods", proficiency: "medium", icon: "/icons/EnsembleMethods.png", description: "Model combination techniques" },
+      { name: "Generative AI", proficiency: "medium", icon: "/icons/GenerativeAI.png", description: "GANs and content generation" },
+      { name: "Audio Processing", proficiency: "basic", icon: "/icons/AudioProcessing.png", description: "Speech analysis and multimodal systems" },
+      { name: "Reinforcement Learning", proficiency: "basic", icon: "/icons/ReinforcementLearning.png", description: "Autonomous systems exploration" },
+    ]
+  },
+  {
+    category: "Development & Deployment",
+    description: "Tools and technic for building and deploying AI applications.",
+    priority: 3,
+    items: [
+      { name: "Git/GitHub", proficiency: "high", icon: "/icons/GitHub.png", description: "Version control and collaboration" },
+      { name: "Jupyter Notebooks", proficiency: "high", icon: "/icons/Jupyter.png", description: "Data science and experimentation" },
+      { name: "Docker", proficiency: "medium", icon: "/icons/Docker.png", description: "Containerization" },
+      { name: "MLflow", proficiency: "medium", icon: "/icons/MLflow.png", description: "Model tracking" },
+      { name: "Linux/Unix", proficiency: "medium", icon: "/icons/Linux.png", description: "Server environments" },
+      { name: "AWS", proficiency: "medium", icon: "/icons/AWS.png", description: "Cloud services" },
+      { name: "CI/CD", proficiency: "medium", icon: "/icons/CI_CD.png", description: "Continuous integration and deployment" },
+      { name: "Azure", proficiency: "basic", icon: "/icons/Azure.png", description: "Cloud services" },
+      { name: "Kubernetes", proficiency: "basic", icon: "/icons/Kubernetes.png", description: "Container orchestration" },
+    ]
+  },
+  {
+    category: "Data & Backend",
+    description: "Database and backend technologies supporting AI systems.",
+    priority: 4,
+    items: [
+      { name: "FastAPI", proficiency: "high", icon: "/icons/FastAPI.png", description: "AI model serving and APIs" },
+      { name: "REST APIs", proficiency: "high", icon: "/icons/RestApi.png", description: "API design and development" },
+      { name: "Data Annotation", proficiency: "high", icon: "/icons/DataAnnotation.png", description: "Dataset preparation and labeling" },
+      { name: "PostgreSQL", proficiency: "medium", icon: "/icons/PostgresSQL.png", description: "Relational databases" },
+      { name: "MongoDB", proficiency: "medium", icon: "/icons/MongoDB.png", description: "Document databases" },
+      { name: "Node.js", proficiency: "medium", icon: "/icons/Node.js.png", description: "Backend development" },
+      { name: "React", proficiency: "medium", icon: "/icons/React.png", description: "Frontend for AI demos" },
+      { name: "Redis", proficiency: "medium", icon: "/icons/Redis.png  ", description: "In-memory data store" },
+      { name: "GraphQL", proficiency: "basic", icon: "/icons/GraphQL.png", description: "API query language" },
+    ]
+  }
+];
+
+// Proficiency indicator configuration - more appropriate for students
+export const proficiencyConfig = {
+  "high": {
+    dots: 3,
+    color: "bg-green-500",
+    bgColor: "bg-green-50 dark:bg-green-900/20",
+    borderColor: "border-green-200 dark:border-green-800",
+    label: "Proficient"
+  },
+  "medium": {
+    dots: 2,
+    color: "bg-blue-500",
+    bgColor: "bg-blue-50 dark:bg-blue-900/20",
+    borderColor: "border-blue-200 dark:border-blue-800",
+    label: "Experienced"
+  },
+  "basic": {
+    dots: 1,
+    color: "bg-orange-500",
+    bgColor: "bg-orange-50 dark:bg-orange-900/20",
+    borderColor: "border-orange-200 dark:border-orange-800",
+    label: "Learning"
+  }
+};
+
+export const certifications = [
+  {
+    id: 1,
+    title: "AWS AI Foundations",
+    issuer: "Amazon Web Services",
+    date: "2025",
+    image: "/certs/aws-aif.png",
+    credentialUrl: "https://cp.certmetrics.com/amazon/en/public/verify/credential/f92f44f3e843425aa1cce770c6b7f9e2",
+    category: "Cloud & MLOps"
+  },
+  {
+    id: 2,
+    title: "AI Foundations for Everyone",
+    issuer: "Coursera",
+    date: "2024",
+    image: "/certs/ai-foundations.png",
+    credentialUrl: "https://coursera.org/share/e4c9c9a2c999a988458f73175fc1e481",
+    category: "AI & Machine Learning"
+  },
+  {
+    id: 3,
+    title: "Software Development Lifecycle",
+    issuer: "Coursera",
+    date: "2025",
+    image: "/certs/sdlc.png",
+    credentialUrl: "https://coursera.org/share/2298df9cb7ae9dd92ebaca5b330a7da8",
+    category: "Software Development"
+  },
+  {
+    id: 4,
+    title: "Microsoft Azure Developer Associate (AZ-204) Exam Prep",
+    issuer: "Microsoft/Coursera",
+    date: "2024",
+    image: "/certs/azure-204.png",
+    credentialUrl: "https://coursera.org/share/9f240d4920bf8e4dbac1257db15c5d80",
+    category: "Cloud & MLOps"
+  },
+  {
+    id: 5,
+    title: "Microsoft Azure Fundamentals AZ-900 Exam Prep",
+    issuer: "Microsoft/Coursera",
+    date: "2024",
+    image: "/certs/azure-900.png",
+    credentialUrl: "https://coursera.org/share/bcc5c5d4cf88297463d2561e7afb8bfa",
+    category: "Cloud & MLOps"
+  },
+  {
+    id: 6,
+    title: "Mathematics for Machine Learning",
+    issuer: "Coursera",
+    date: "2025",
+    image: "/certs/math-ml.png",
+    credentialUrl: "https://coursera.org/share/745c0b0883a57d7d0982de333c4a06b9",
+    category: "AI & Machine Learning"
+  },
+  {
+    id: 7,
+    title: "Data Science Fundamentals with Python and SQL",
+    issuer: "Coursera",
+    date: "2025",
+    image: "/certs/data-science-fundamentals.png",
+    credentialUrl: "https://coursera.org/share/ab4d63b785165034263a554ddeab1d8c",
+    category: "AI & Machine Learning"
+  }
+];
+
+export const experiences = [
+  {
+    id: 1,
+    title: "AI Engineer",
+    company: "Pix.Production",
+    location: "Da Nang, Vietnam",
+    duration: "2025 - Present",
+    description: "Driving AI innovation and MLOps at BeeWork.AI, architecting scalable machine learning systems for enterprise clients. Leading the development of advanced NLP, computer vision, and generative AI solutions. Responsible for model deployment, monitoring, and continuous improvement in production environments.",
+    technologies: ["Python", "TensorFlow", "PyTorch", "MLOps", "Docker", "Kubernetes", "AWS", "FastAPI", "NLP", "Computer Vision", "Generative AI"]
+  },
+  {
+    id: 2,
+    title: "Data Annotator",
+    company: "BeeWork.AI",
+    location: "Da Nang, Vietnam",
+    duration: "2024 - 2025",
+    description: "Specialized in computer vision data annotation and image data processing for AI model training. Collaborated with machine learning engineers to ensure high-quality labeled datasets, optimized annotation workflows, and contributed to the success of computer vision projects in real-world applications.",
+    technologies: ["Computer Vision", "Image Processing", "Data Annotation", "Python", "Labeling Tools"]
+  }
+];
