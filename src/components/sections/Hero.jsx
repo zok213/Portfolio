@@ -137,7 +137,7 @@ const Hero = () => {
               <div className="w-[400px] h-[600px] rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-blue-600 to-purple-600 p-1">
                 <div className="w-full h-full rounded-3xl overflow-hidden">
                   <img
-                    src="/img.png"
+                    src="/assets/images/img.png"
                     alt="Mai Phuoc Minh Tai"
                     className="w-full h-full object-cover object-center"
                     onError={(e) => {

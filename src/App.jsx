@@ -22,7 +22,8 @@ import config from './data/config.json';
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
     const saved = localStorage.getItem('darkMode');
-    return saved ? JSON.parse(saved) : config.theme.darkMode;
+    // Force light mode as default - ignore saved preference and config
+    return saved ? JSON.parse(saved) : false; // Always default to light mode (false)
   });
 
   const [isLoading, setIsLoading] = useState(true);
