@@ -131,14 +131,22 @@ const Skills = () => {
                             <img
                               src={skill.icon}
                               alt={skill.name}
-                              className="w-8 h-8 object-contain"
-                              onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                              className="w-8 h-8 object-contain transition-all duration-300 group-hover:scale-110"
+                              onError={(e) => { 
+                                // If image fails to load, show fallback
+                                e.currentTarget.style.display = 'none';
+                                e.currentTarget.nextElementSibling.style.display = 'flex';
+                              }}
+                              loading="lazy"
                             />
-                          ) : (
-                            <div className="w-8 h-8 bg-gradient-to-br from-gray-300 to-gray-400 dark:from-gray-600 dark:to-gray-700 rounded-lg flex items-center justify-center">
-                              <Wrench className="w-4 h-4 text-gray-600 dark:text-gray-300" />
-                            </div>
-                          )}
+                          ) : null}
+                          {/* Fallback icon for missing images */}
+                          <div 
+                            className="w-8 h-8 bg-gradient-to-br from-purple-400 to-blue-500 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-lg"
+                            style={{ display: skill.icon ? 'none' : 'flex' }}
+                          >
+                            {skill.name.charAt(0).toUpperCase()}
+                          </div>
                         </div>
 
                         {/* Skill Info */}

@@ -88,7 +88,7 @@ export const skills = [
     items: [
       { name: "Python", proficiency: "high", icon: "/assets/icons/Python.png" },
       { name: "TensorFlow", proficiency: "high", icon: "/assets/icons/TensorFlow.png" },
-      { name: "Scikit-learn", proficiency: "high", icon: "/assets/icons/Scikit-learn.png" },
+      { name: "Scikit-learn", proficiency: "high", icon: "/assets/icons/scikit-learn.png" },
       { name: "Pandas/NumPy/Matplotlib/Seaborn", proficiency: "high", icon: "/assets/icons/Pandas.png" },
       { name: "PyTorch", proficiency: "medium", icon: "/assets/icons/PyTorch.png" },
       { name: "OpenCV", proficiency: "medium", icon: "/assets/icons/OpenCV.png" },
@@ -107,7 +107,7 @@ export const skills = [
       { name: "Ensemble Methods", proficiency: "medium", icon: "/assets/icons/EnsembleMethods.png", description: "Model combination techniques" },
       { name: "Generative AI", proficiency: "medium", icon: "/assets/icons/GenerativeAI.png", description: "GANs and content generation" },
       { name: "Audio Processing", proficiency: "basic", icon: "/assets/icons/AudioProcessing.png", description: "Speech analysis and multimodal systems" },
-      { name: "Reinforcement Learning", proficiency: "basic", icon: "/icons/ReinforcementLearning.png", description: "Autonomous systems exploration" },
+      { name: "Reinforcement Learning", proficiency: "basic", icon: "/assets/icons/ReinforcementLearning.png", description: "Autonomous systems exploration" },
     ]
   },
   {
@@ -115,15 +115,15 @@ export const skills = [
     description: "Tools and technic for building and deploying AI applications.",
     priority: 3,
     items: [
-      { name: "Git/GitHub", proficiency: "high", icon: "/icons/GitHub.png", description: "Version control and collaboration" },
-      { name: "Jupyter Notebooks", proficiency: "high", icon: "/icons/Jupyter.png", description: "Data science and experimentation" },
-      { name: "Docker", proficiency: "medium", icon: "/icons/Docker.png", description: "Containerization" },
-      { name: "MLflow", proficiency: "medium", icon: "/icons/MLflow.png", description: "Model tracking" },
-      { name: "Linux/Unix", proficiency: "medium", icon: "/icons/Linux.png", description: "Server environments" },
-      { name: "AWS", proficiency: "medium", icon: "/icons/AWS.png", description: "Cloud services" },
-      { name: "CI/CD", proficiency: "medium", icon: "/icons/CI_CD.png", description: "Continuous integration and deployment" },
-      { name: "Azure", proficiency: "basic", icon: "/icons/Azure.png", description: "Cloud services" },
-      { name: "Kubernetes", proficiency: "basic", icon: "/icons/Kubernetes.png", description: "Container orchestration" },
+      { name: "Git/GitHub", proficiency: "high", icon: "/assets/icons/GitHub.png", description: "Version control and collaboration" },
+      { name: "Jupyter Notebooks", proficiency: "high", icon: "/assets/icons/Jupyter.png", description: "Data science and experimentation" },
+      { name: "Docker", proficiency: "medium", icon: "/assets/icons/Docker.png", description: "Containerization" },
+      { name: "MLflow", proficiency: "medium", icon: "/assets/icons/MLflow.png", description: "Model tracking" },
+      { name: "Linux/Unix", proficiency: "medium", icon: "/assets/icons/Linux.png", description: "Server environments" },
+      { name: "AWS", proficiency: "medium", icon: "/assets/icons/AWS.png", description: "Cloud services" },
+      { name: "CI/CD", proficiency: "medium", icon: "/assets/icons/CI_CD.png", description: "Continuous integration and deployment" },
+      { name: "Azure", proficiency: "basic", icon: "/assets/icons/Azure.png", description: "Cloud services" },
+      { name: "Kubernetes", proficiency: "basic", icon: "/assets/icons/Kubernetes.png", description: "Container orchestration" },
     ]
   },
   {
@@ -131,15 +131,15 @@ export const skills = [
     description: "Database and backend technologies supporting AI systems.",
     priority: 4,
     items: [
-      { name: "FastAPI", proficiency: "high", icon: "/icons/FastAPI.png", description: "AI model serving and APIs" },
-      { name: "REST APIs", proficiency: "high", icon: "/icons/RestApi.png", description: "API design and development" },
-      { name: "Data Annotation", proficiency: "high", icon: "/icons/DataAnnotation.png", description: "Dataset preparation and labeling" },
-      { name: "PostgreSQL", proficiency: "medium", icon: "/icons/PostgresSQL.png", description: "Relational databases" },
-      { name: "MongoDB", proficiency: "medium", icon: "/icons/MongoDB.png", description: "Document databases" },
-      { name: "Node.js", proficiency: "medium", icon: "/icons/Node.js.png", description: "Backend development" },
-      { name: "React", proficiency: "medium", icon: "/icons/React.png", description: "Frontend for AI demos" },
-      { name: "Redis", proficiency: "medium", icon: "/icons/Redis.png  ", description: "In-memory data store" },
-      { name: "GraphQL", proficiency: "basic", icon: "/icons/GraphQL.png", description: "API query language" },
+      { name: "FastAPI", proficiency: "high", icon: "/assets/icons/FastAPI.png", description: "AI model serving and APIs" },
+      { name: "REST APIs", proficiency: "high", icon: "/assets/icons/RestAPI.png", description: "API design and development" },
+      { name: "Data Annotation", proficiency: "high", icon: "/assets/icons/DataAnnotation.png", description: "Dataset preparation and labeling" },
+      { name: "PostgreSQL", proficiency: "medium", icon: "/assets/icons/PostgresSQL.png", description: "Relational databases" },
+      { name: "MongoDB", proficiency: "medium", icon: "/assets/icons/MongoDB.png", description: "Document databases" },
+      { name: "Node.js", proficiency: "medium", icon: "/assets/icons/Node.js.png", description: "Backend development" },
+      { name: "React", proficiency: "medium", icon: "/assets/icons/React.png", description: "Frontend for AI demos" },
+      { name: "Redis", proficiency: "medium", icon: "/assets/icons/Redis.png", description: "In-memory data store" },
+      { name: "GraphQL", proficiency: "basic", icon: "/assets/icons/GraphQL.png", description: "API query language" },
     ]
   }
 ];
