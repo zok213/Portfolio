@@ -32,3 +32,5 @@ node_modules
 copilot-instructions.md
 
 .vscode/
+
+*.tex

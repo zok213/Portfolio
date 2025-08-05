@@ -4,7 +4,7 @@ export const projects = [
     title: "JobFit - AI-Powered Job Matching Platform",
     description: "An intelligent job matching system using machine learning algorithms to connect candidates with perfect job opportunities based on skills, experience, and preferences.",
     image: "/assets/projects/JobFIt.ai.jpg",
-    technologies: ["Python", "Machine Learning", "NLP", "FastAPI", "React", "PostgreSQL"],
+    technologies: ["Python", "ML", "NLP", "FastAPI", "A2A", "RAG", "React", "PostgreSQL"],
     liveUrl: "https://jobfit-demo.example.com",
     githubUrl: "https://github.com/zok213/JobFit",
     featured: true,
@@ -15,7 +15,7 @@ export const projects = [
     title: "DroneAgent - Autonomous Drone Control System",
     description: "An AI-powered autonomous drone control system with computer vision capabilities for navigation, object detection, and mission planning using reinforcement learning.",
     image: "/assets/projects/AgentDrone.jpg",
-    technologies: ["Python", "Computer Vision", "Reinforcement Learning", "OpenCV", "TensorFlow", "ROS"],
+    technologies: ["Python", "Computer Vision", "RAG Graph", "A2A", "TensorFlow"],
     liveUrl: "https://github.com/zok213/DroneAgent",
     githubUrl: "https://github.com/zok213/DroneAgent",
     featured: true,
@@ -26,7 +26,7 @@ export const projects = [
     title: "Quintgram - AI Fairy Tale Drawing App",
     description: "An AI-powered creative application that generates beautiful fairy tale illustrations for children. Uses advanced computer vision and generative AI to create magical, story-driven artwork that brings children's imagination to life.",
     image: "/assets/projects/Quintgarm.gif",
-    technologies: ["Python", "Generative AI", "Computer Vision", "React", "FastAPI", "Image Generation"],
+    technologies: ["Python", "Generative AI", "Computer Vision", "React"],
     liveUrl: "https://github.com/zok213/Quintgram",
     githubUrl: "https://github.com/zok213/Quintgram",
     featured: true,
@@ -37,7 +37,7 @@ export const projects = [
     title: "Pixity - AI Local Assistant & Production Pipeline",
     description: "Enterprise-grade AI production pipeline and MLOps platform for deploying, monitoring, and scaling machine learning models in production environments.",
     image: "/assets/projects/Pixity.png",
-    technologies: ["Python", "RAG",  "FastAPI", "Chat Bot","MLOps", "Docker", "Kubernetes", "TensorFlow", "Monitoring"],
+    technologies: ["Python", "RAG", "FastAPI", "MLOps", "Docker"],
     liveUrl: "https://pixagent-demo.example.com",
     githubUrl: "https://github.com/ManTT-Data/PixAgent",
     featured: true,
@@ -48,7 +48,7 @@ export const projects = [
     title: "Hybrid Emotion Classifier",
     description: "A hybrid deep learning model for emotion classification using facial images and audio signals. Integrates CNN and RNN architectures for robust multimodal emotion recognition.",
     image: "/assets/projects/HybridEmotionClassifier.jpg",
-    technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "Audio Processing"],
+    technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "Computer Vision"],
     liveUrl: "https://github.com/zok213/Hybrid-Emotion-Classifier",
     githubUrl: "https://github.com/zok213/Hybrid-Emotion-Classifier",
     featured: false,
@@ -59,7 +59,7 @@ export const projects = [
     title: "DeepFaceEnsemble-ResNetMobile",
     description: "An ensemble deep learning system combining ResNet and MobileNet architectures for highly accurate face recognition and verification tasks.",
     image: "/assets/projects/DeepFaceEnsemble.jpg",
-    technologies: ["Python", "TensorFlow", "Keras", "ResNet", "MobileNet", "Face Recognition"],
+    technologies: ["Python", "TensorFlow", "Keras", "ResNet", "MobileNet"],
     liveUrl: "https://github.com/zok213/DeepFaceEnsemble-ResNetMobile",
     githubUrl: "https://github.com/zok213/DeepFaceEnsemble-ResNetMobile",
     featured: false,
@@ -242,8 +242,8 @@ export const experiences = [
     company: "Pix.Production",
     location: "Da Nang, Vietnam",
     duration: "2025 - Present",
-    description: "Driving AI innovation and MLOps at BeeWork.AI, architecting scalable machine learning systems for enterprise clients. Leading the development of advanced NLP, computer vision, and generative AI solutions. Responsible for model deployment, monitoring, and continuous improvement in production environments.",
-    technologies: ["Python", "TensorFlow", "PyTorch", "MLOps", "Docker", "Kubernetes", "AWS", "FastAPI", "NLP", "Computer Vision", "Generative AI"]
+    description: "Driving AI innovation and MLOps, architecting scalable machine learning systems for enterprise clients. Leading development of advanced NLP, computer vision, and generative AI solutions. Responsible for model deployment, monitoring, and continuous improvement in production environments.",
+    technologies: ["Python", "TypeScript", "TensorFlow", "PyTorch", "MLOps", "Docker", "RAG Graph", "A2A", "MCP", "AWS", "FastAPI"]
   },
   {
     id: 2,
@@ -251,7 +251,7 @@ export const experiences = [
     company: "BeeWork.AI",
     location: "Da Nang, Vietnam",
     duration: "2024 - 2025",
-    description: "Specialized in computer vision data annotation and image data processing for AI model training. Collaborated with machine learning engineers to ensure high-quality labeled datasets, optimized annotation workflows, and contributed to the success of computer vision projects in real-world applications.",
+    description: "Specialized in computer vision data annotation and image data processing for AI model training. Collaborated with ML engineers to ensure high-quality labeled datasets for production models. Optimized annotation workflows, contributing to successful computer vision projects in real-world applications.",
     technologies: ["Computer Vision", "Image Processing", "Data Annotation", "Python", "Labeling Tools"]
   }
 ];
