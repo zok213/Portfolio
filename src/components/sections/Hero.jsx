@@ -141,8 +141,13 @@ const Hero = () => {
                     alt="Mai Phuoc Minh Tai"
                     className="w-full h-full object-cover object-center"
                     onError={(e) => {
-                      e.target.style.display = 'none';
-                      e.target.nextSibling.style.display = 'flex';
+                      // Try fallback image location
+                      if (e.target.src.includes('/assets/images/img.png')) {
+                        e.target.src = '/img.png';
+                      } else {
+                        e.target.style.display = 'none';
+                        e.target.nextSibling.style.display = 'flex';
+                      }
                     }}
                   />
                   <div 
