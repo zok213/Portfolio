@@ -34,14 +34,19 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Pixity - AI Local Assistant & Production Pipeline",
-    description: "Enterprise-grade AI production pipeline and MLOps platform for deploying, monitoring, and scaling machine learning models in production environments.",
+    title: "PixAgent - AI Local Assistant & RAG Workflow System",
+    description: "A comprehensive AI chatbot ecosystem featuring RAG (Retrieval-Augmented Generation) capabilities for intelligent document processing and conversational AI. Includes admin dashboard for bot management, web-based chat interface, and enterprise-grade backend infrastructure for scalable AI assistance.",
     image: "/assets/projects/Pixity.png",
-    technologies: ["Python", "RAG", "FastAPI", "MLOps", "Docker"],
-    liveUrl: "https://pixagent-demo.example.com",
+    technologies: ["Python", "RAG", "FastAPI", "TypeScript", "React", "AI Workflow", "Document Processing", "Vector DB"],
+    liveUrl: "https://github.com/zok213/PixAgent_webbase",
     githubUrl: "https://github.com/ManTT-Data/PixAgent",
     featured: true,
-    category: "AI - Full Stack"
+    category: "AI - Full Stack",
+    additionalLinks: {
+      adminPanel: "https://github.com/zok213/TeleBot-admin-page",
+      chatFrontend: "https://github.com/zok213/PixAgent_webbase",
+      backend: "https://github.com/ManTT-Data/PixAgent"
+    }
   },
   {
     id: 5,
